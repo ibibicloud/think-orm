@@ -1,0 +1,29 @@
+{
+    "name": "ibibicloud/think-orm",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0.2",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "psr/log": ">=1.0",
+        "psr/simple-cache": "^3.0",
+        "ibibicloud/think-helper": "^3.1",
+        "ibibicloud/think-validate": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "src/helper.php",
+            "stubs/load_stubs.php"
+        ]
+    },
+    "suggest": {
+        "ext-mongodb": "provide mongodb support"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
