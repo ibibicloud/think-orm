@@ -5,7 +5,6 @@ declare(strict_types = 1);
 namespace think\db;
 
 use Closure;
-use Psr\SimpleCache\CacheInterface;
 use ReflectionFunction;
 use think\Collection;
 use think\db\exception\DataNotFoundException;
@@ -1020,7 +1019,7 @@ abstract class BaseQuery
     /**
      * 获取当前的缓存对象
      *
-     * @return CacheInterface|null
+     * @return Cache|null
      */
     public function getCache()
     {

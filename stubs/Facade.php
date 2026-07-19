@@ -21,8 +21,7 @@ class Facade
      * @return string
      */
     protected static function getFacadeClass()
-    {
-    }
+    {}
 
     /**
      * 创建Facade实例.

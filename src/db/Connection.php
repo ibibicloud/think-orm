@@ -4,7 +4,6 @@ declare(strict_types = 1);
 
 namespace think\db;
 
-use Psr\SimpleCache\CacheInterface;
 use think\DbManager;
 
 /**
@@ -118,7 +117,7 @@ abstract class Connection implements ConnectionInterface
     /**
      * 缓存对象
      *
-     * @var CacheInterface
+     * @var 
      */
     protected $cache;
 
@@ -174,11 +173,11 @@ abstract class Connection implements ConnectionInterface
     /**
      * 设置当前的缓存对象
      *
-     * @param CacheInterface $cache
+     * @param $cache
      *
      * @return void
      */
-    public function setCache(CacheInterface $cache)
+    public function setCache($cache)
     {
         $this->cache = $cache;
     }
@@ -186,7 +185,7 @@ abstract class Connection implements ConnectionInterface
     /**
      * 获取当前的缓存对象
      *
-     * @return CacheInterface|null
+     * @return Cache|null
      */
     public function getCache()
     {

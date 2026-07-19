@@ -6,8 +6,6 @@ namespace think;
 
 use Closure;
 use InvalidArgumentException;
-use Psr\Log\LoggerInterface;
-use Psr\SimpleCache\CacheInterface;
 use think\db\BaseQuery;
 use think\db\ConnectionInterface;
 use think\db\Query;
@@ -59,14 +57,14 @@ class DbManager
     /**
      * 查询缓存对象
      *
-     * @var CacheInterface
+     * @var 
      */
     protected $cache;
 
     /**
      * 查询日志对象
      *
-     * @var LoggerInterface
+     * @var Log
      */
     protected $log;
 
@@ -130,11 +128,11 @@ class DbManager
     /**
      * 设置缓存对象
      *
-     * @param CacheInterface $cache 缓存对象
+     * @param $cache 缓存对象
      *
      * @return void
      */
-    public function setCache(CacheInterface $cache): void
+    public function setCache($cache): void
     {
         $this->cache = $cache;
     }
@@ -142,11 +140,11 @@ class DbManager
     /**
      * 设置日志对象
      *
-     * @param LoggerInterface|Closure $log 日志对象
+     * @param Log|Closure $log 日志对象
      *
      * @return void
      */
-    public function setLog(LoggerInterface | Closure $log): void
+    public function setLog(Log | Closure $log): void
     {
         $this->log = $log;
     }

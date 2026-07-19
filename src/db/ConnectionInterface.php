@@ -4,7 +4,6 @@ declare(strict_types = 1);
 
 namespace think\db;
 
-use Psr\SimpleCache\CacheInterface;
 use think\DbManager;
 
 /**
@@ -41,11 +40,11 @@ interface ConnectionInterface
     /**
      * 设置当前的缓存对象
      *
-     * @param CacheInterface $cache
+     * @param $cache
      *
      * @return void
      */
-    public function setCache(CacheInterface $cache);
+    public function setCache($cache);
 
     /**
      * 获取数据库的配置参数.

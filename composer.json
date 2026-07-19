@@ -6,10 +6,8 @@
         "php": ">=8.0.2",
         "ext-json": "*",
         "ext-pdo": "*",
-        "psr/log": ">=1.0",
-        "psr/simple-cache": "^3.0",
-        "ibibicloud/think-helper": "^3.1",
-        "ibibicloud/think-validate": "^3.0"
+        "ibibicloud/think-helper": "8.*",
+        "ibibicloud/think-validate": "8.*"
     },
     "autoload": {
         "psr-4": {
@@ -19,11 +17,5 @@
             "src/helper.php",
             "stubs/load_stubs.php"
         ]
-    },
-    "suggest": {
-        "ext-mongodb": "provide mongodb support"
-    },
-    "config": {
-        "sort-packages": true
     }
 }
