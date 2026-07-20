@@ -14,4 +14,5 @@ interface Typeable
      * @return mixed
      */
     public function value();
+    
 }

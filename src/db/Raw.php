@@ -20,8 +20,7 @@ class Raw
      * @return void
      */
     public function __construct(protected string|Stringable $value, protected array $bind = [])
-    {
-    }
+    {}
 
     /**
      * 获取表达式.
@@ -47,4 +46,5 @@ class Raw
     {
         return $this->value;
     }
+    
 }

@@ -215,4 +215,5 @@ trait TimeFieldQuery
         return $this->whereTime($startField, '>', time())
             ->whereTime($endField, '<', time(), 'OR');
     }
+    
 }

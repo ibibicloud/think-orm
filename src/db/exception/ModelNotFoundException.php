@@ -32,4 +32,5 @@ class ModelNotFoundException extends DbException
     {
         return $this->model;
     }
+    
 }

@@ -137,4 +137,5 @@ trait ParamsBind
 
         return $bind;
     }
+    
 }

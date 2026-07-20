@@ -119,4 +119,5 @@ trait AggregateQuery
     {
         return $this->aggregate('AVG', $field, true);
     }
+    
 }

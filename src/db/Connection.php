@@ -369,5 +369,6 @@ abstract class Connection implements ConnectionInterface
     {
         // 调用Query类方法
         return call_user_func_array([$this->newQuery(), $method], $args);
-    }    
+    }   
+     
 }

@@ -33,4 +33,5 @@ class PDOException extends DbException
 
         parent::__construct($message, $config, $sql, $code);
     }
+    
 }

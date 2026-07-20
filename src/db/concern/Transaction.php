@@ -119,4 +119,5 @@ trait Transaction
     {
         $this->connection->rollbackXa($xid);
     }
+    
 }

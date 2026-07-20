@@ -19,4 +19,5 @@ class Db extends Facade
     {
         return 'think\DbManager';
     }
+    
 }

@@ -1743,4 +1743,5 @@ abstract class BaseQuery
 
         return md5(serialize(var_export($data, true)) . serialize($this->getBind(false)));
     }
+    
 }

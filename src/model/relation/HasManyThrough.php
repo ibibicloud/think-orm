@@ -379,4 +379,5 @@ class HasManyThrough extends Relation
             $this->baseQuery = true;
         }
     }
+    
 }

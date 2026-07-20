@@ -532,4 +532,5 @@ class Fetch
 
         return $result === $this->query ? $this : $result;
     }
+    
 }

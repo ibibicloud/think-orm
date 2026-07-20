@@ -215,4 +215,5 @@ trait Conversion
     {
         return is_subclass_of($class, View::class) ? new $class($this) : $this;
     }
+    
 }

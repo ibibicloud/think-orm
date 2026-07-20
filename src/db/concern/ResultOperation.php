@@ -254,4 +254,5 @@ trait ResultOperation
     {
         return $this->failException(true)->find($data);
     }
+    
 }

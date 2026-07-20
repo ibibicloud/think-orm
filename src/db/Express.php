@@ -19,8 +19,7 @@ class Express
      * @return void
      */
     public function __construct(protected string $type, protected float $step = 1, protected int $lazyTime = 0)
-    {
-    }
+    {}
 
     public function getStep()
     {
@@ -52,4 +51,5 @@ class Express
             default => ' + 0',
         };
     }
+    
 }

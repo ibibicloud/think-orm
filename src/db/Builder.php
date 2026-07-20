@@ -827,4 +827,5 @@ class Builder extends BaseBuilder
             $this->insertAllSql
         );
     }
+    
 }

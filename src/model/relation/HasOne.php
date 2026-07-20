@@ -305,4 +305,5 @@ class HasOne extends OneToOne
             $this->baseQuery = true;
         }
     }
+    
 }

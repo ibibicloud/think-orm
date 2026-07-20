@@ -485,4 +485,5 @@ class MorphToMany extends BelongsToMany
 
         return static::$morphMap;
     }
+    
 }

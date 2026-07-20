@@ -23,4 +23,5 @@ class BindParamException extends DbException
         $this->setData('Bind Param', $bind);
         parent::__construct($message, $config, $sql, $code);
     }
+    
 }

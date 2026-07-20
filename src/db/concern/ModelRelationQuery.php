@@ -717,4 +717,5 @@ trait ModelRelationQuery
             $result->mapping($this->options['mapping']);
         }
     }
+    
 }

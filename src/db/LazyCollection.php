@@ -607,4 +607,5 @@ class LazyCollection implements IteratorAggregate, Countable, JsonSerializable, 
             }
         });
     }
+    
 }

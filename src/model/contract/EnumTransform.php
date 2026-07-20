@@ -7,4 +7,5 @@ namespace think\model\contract;
 interface EnumTransform
 {
     public function value();
+    
 }

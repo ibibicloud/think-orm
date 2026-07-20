@@ -752,4 +752,5 @@ abstract class View extends Entity
         $result = call_user_func_array([$this->model(), $method], $args);
         return $result instanceof Model ? $this : $result;
     }
+    
 }

@@ -374,4 +374,5 @@ class HasMany extends Relation
             $this->baseQuery = true;
         }
     }
+    
 }

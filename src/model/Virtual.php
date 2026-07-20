@@ -60,4 +60,5 @@ abstract class Virtual extends Model
 
         return $schema;
     }    
+    
 }

@@ -338,4 +338,5 @@ class BelongsTo extends OneToOne
             $this->baseQuery = true;
         }
     }
+    
 }

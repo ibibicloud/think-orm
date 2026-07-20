@@ -18,8 +18,7 @@ class Where implements ArrayAccess
      * @param bool  $enclose 是否增加括号
      */
     public function __construct(protected array $where = [], protected bool $enclose = false)
-    {
-    }
+    {}
 
     /**
      * 设置是否添加括号.
@@ -163,4 +162,5 @@ class Where implements ArrayAccess
     {
         return $this->__get($name);
     }
+    
 }

@@ -380,4 +380,5 @@ class MorphTo extends Relation
 
         return $this;
     }
+    
 }

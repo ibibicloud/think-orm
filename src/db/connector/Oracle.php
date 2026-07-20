@@ -127,4 +127,5 @@ class Oracle extends PDOConnection
     {
         return "ALTER SESSION SET TIME_ZONE = '$timezone'";
     }
+    
 }

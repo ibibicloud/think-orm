@@ -16,4 +16,5 @@ class Date extends DateTime
         $static->data($value, 'Y-m-d');
         return $static;
     }
+    
 }

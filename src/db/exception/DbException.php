@@ -33,4 +33,5 @@ class DbException extends Exception
         unset($config['username'], $config['password']);
         $this->setData('Database Config', $config);
     }
+    
 }

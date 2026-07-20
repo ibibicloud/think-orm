@@ -208,4 +208,5 @@ class CacheItem
 
         return $this;
     }
+    
 }

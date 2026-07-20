@@ -326,8 +326,7 @@ abstract class Relation
      * @return void
      */
     protected function baseQuery(): void
-    {
-    }
+    {}
 
     public function __call($method, $args)
     {
@@ -342,4 +341,5 @@ abstract class Relation
 
         throw new Exception('method not exists:' . __CLASS__ . '->' . $method);
     }
+
 }

@@ -133,4 +133,5 @@ class Sqlsrv extends PDOConnection
         // 注意：SQL Server 2016 及以上版本才支持此命令
         return "SET TIME ZONE '$timezone'";
     }
+    
 }

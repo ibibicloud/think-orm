@@ -333,4 +333,5 @@ abstract class Entity implements JsonSerializable, ArrayAccess, Arrayable, Jsona
         // 调用Model类方法
         return call_user_func_array([$this->model(), $method], $args);
     }
+    
 }

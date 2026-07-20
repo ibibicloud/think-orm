@@ -14,4 +14,5 @@ interface FieldTypeTransform
      * @return static|mixed
      */
     public static function set($value, Model $model) : mixed;
+    
 }

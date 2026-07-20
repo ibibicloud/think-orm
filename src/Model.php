@@ -67,8 +67,7 @@ abstract class Model implements JsonSerializable, ArrayAccess, Arrayable, Jsonab
      * @return void
      */
     public static function setInvoker(callable $callable): void
-    {
-    }
+    {}
 
     /**
      * 调用反射执行模型方法 支持参数绑定.
@@ -457,8 +456,7 @@ abstract class Model implements JsonSerializable, ArrayAccess, Arrayable, Jsonab
      * @return void
      */
     protected function checkData(array &$data, bool $isUpdate): void
-    {
-    }
+    {}
 
     protected function getDbWhere($where = [])
     {
@@ -892,4 +890,5 @@ abstract class Model implements JsonSerializable, ArrayAccess, Arrayable, Jsonab
     {
         $this->__unset($name);
     }
+    
 }

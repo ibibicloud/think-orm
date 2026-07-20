@@ -65,4 +65,5 @@ class Pivot extends Model
         $this->data($data);
         return $this->clone();
     }
+    
 }

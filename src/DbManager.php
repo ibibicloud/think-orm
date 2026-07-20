@@ -110,8 +110,7 @@ class DbManager
      * @return void
      */
     public function triggerSql(): void
-    {
-    }
+    {}
 
     /**
      * 初始化配置参数.
@@ -297,8 +296,7 @@ class DbManager
      * @return void
      */
     public function updateQueryTimes(): void
-    {
-    }
+    {}
 
     /**
      * 重置查询次数.
@@ -386,4 +384,5 @@ class DbManager
     {
         return call_user_func_array([$this->connect(), $method], $args);
     }
+    
 }

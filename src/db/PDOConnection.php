@@ -2042,4 +2042,5 @@ abstract class PDOConnection extends Connection
         // 默认实现，子类应重写此方法
         return '';
     }
+    
 }

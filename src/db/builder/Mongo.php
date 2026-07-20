@@ -683,4 +683,5 @@ class Mongo
     {
         $this->connection->mongoLog($type, $data, $options);
     }
+    
 }

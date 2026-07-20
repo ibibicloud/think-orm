@@ -126,4 +126,5 @@ trait AutoWriteData
         $this->setOption('createTime', $createTime);
         $this->setOption('updateTime', $updateTime);
     }
+    
 }

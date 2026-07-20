@@ -723,4 +723,5 @@ class BelongsToMany extends Relation
             $this->baseQuery = true;
         }
     }
+    
 }

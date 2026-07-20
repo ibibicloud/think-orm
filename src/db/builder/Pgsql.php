@@ -117,4 +117,5 @@ class Pgsql extends Builder
     {
         return 'RANDOM()';
     }
+    
 }

@@ -124,4 +124,5 @@ class Oracle extends Builder
     {
         return 'DBMS_RANDOM.value';
     }
+    
 }

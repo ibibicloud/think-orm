@@ -658,4 +658,5 @@ trait WhereQuery
             $this->where($query);
         }
     }
+    
 }

@@ -95,4 +95,5 @@ trait TableFieldInfo
 
         return $this->connection->getFieldBindType($fieldType ?: '');
     }
+    
 }

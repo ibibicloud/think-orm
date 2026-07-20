@@ -152,4 +152,5 @@ SQL;
     {
         return "SET timezone = '$timezone'";
     }
+    
 }

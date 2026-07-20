@@ -513,4 +513,5 @@ class Mysql extends Builder
 
         return ' ON DUPLICATE KEY UPDATE ' . implode(' , ', $updates) . ' ';
     }
+    
 }

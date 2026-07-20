@@ -206,4 +206,5 @@ class Bootstrap extends Paginator
 
         return $this->getAvailablePageWrapper($url, $page);
     }
+    
 }

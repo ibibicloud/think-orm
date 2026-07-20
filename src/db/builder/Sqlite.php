@@ -106,4 +106,5 @@ class Sqlite extends Builder
     {
         return '';
     }
+    
 }

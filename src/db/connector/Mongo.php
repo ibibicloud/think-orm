@@ -1213,4 +1213,5 @@ class Mongo extends Connection
         ? $this->sessions[$this->session_uuid]
         : null;
     }
+    
 }

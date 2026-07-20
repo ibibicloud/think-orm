@@ -32,4 +32,5 @@ class DataNotFoundException extends DbException
     {
         return $this->table;
     }
+    
 }

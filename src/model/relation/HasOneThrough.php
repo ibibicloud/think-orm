@@ -152,4 +152,5 @@ class HasOneThrough extends HasManyThrough
             return $set ?: null;
         }, $keys);
     }
+    
 }

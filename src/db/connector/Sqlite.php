@@ -98,4 +98,5 @@ class Sqlite extends PDOConnection
         // 建议在应用层处理时区转换
         return '';
     }
+    
 }

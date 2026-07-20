@@ -215,4 +215,5 @@ class Mysql extends PDOConnection
     {
         return "SET time_zone = '$timezone'";
     }
+    
 }

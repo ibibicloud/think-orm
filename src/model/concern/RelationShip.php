@@ -890,4 +890,5 @@ trait RelationShip
 
         return Str::snake($name) . '_id';
     }
+    
 }

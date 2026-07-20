@@ -42,4 +42,5 @@ class Json implements Typeable
     {
         return json_encode($this->data, JSON_UNESCAPED_UNICODE);
     }
+    
 }

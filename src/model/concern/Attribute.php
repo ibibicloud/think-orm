@@ -722,4 +722,5 @@ trait Attribute
     {
         return $this->setOption('enumReadName', $method);
     }
+    
 }

@@ -424,4 +424,5 @@ class MorphMany extends Relation
             $this->baseQuery = true;
         }
     }
+    
 }

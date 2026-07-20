@@ -217,4 +217,5 @@ trait SoftDelete
             $query->useSoftDelete($field, $condition);
         }
     }
+    
 }

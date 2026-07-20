@@ -287,4 +287,5 @@ class Collection extends BaseCollection
 
         return new static($intersect);
     }
+    
 }
